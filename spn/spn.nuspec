@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>spn</id>
+    <version>2024.8.5</version>
+    <packageSourceUrl>https://github.com/ycycxz/choco-spn</packageSourceUrl>
+    <owners>YCYCXZ</owners>
+    <title>SPN</title>
+    <authors>YCYCXZ</authors>
+    <projectUrl>https://github.com/ycycxz/spn</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/ycycxz/spn@main/logo.svg</iconUrl>
+    <copyright>2024 YCYCXZ</copyright>
+    <licenseUrl>https://github.com/ycycxz/spn/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/ycycxz/spn</projectSourceUrl>
+    <docsUrl>https://ultra.ycycxz.com</docsUrl>
+    <mailingListUrl>https://ycycxz.com/contact</mailingListUrl>
+    <bugTrackerUrl>https://github.com/ycycxz/spn/issues</bugTrackerUrl>
+    <tags>SPN</tags>
+    <summary>Safing Private Network</summary>
+    <description>
+- The Safing Private Network (SPN) Powered by sing-box
+- ![SPN](https://cdn.jsdelivr.net/gh/ycycxz/spn@main/spn.png)
+    </description>
+    <dependencies>
+      <dependency id="sing-box" version="1.10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
